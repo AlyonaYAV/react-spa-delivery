@@ -2,9 +2,15 @@ import React from "react";
 import './navbar.css';
 
 const Navbar = ()=>{
-    return (<div>
-        <h1>Navbar</h1>
-    </div>)
+    return (<nav className="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">How to apply</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">About us slider</a></li>
+            </ul>
+        </nav>);
 }
 
 export default Navbar;
