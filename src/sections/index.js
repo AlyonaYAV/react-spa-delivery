@@ -5,3 +5,4 @@ export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
 export { default as HowToApply } from './how-to-apply/HowToApply';
 export { default as Main } from './main/Main';
+export { default as ContactUs } from './contact-us/ContactUs';
