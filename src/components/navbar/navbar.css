@@ -1,7 +1,6 @@
 .navbar{
     height: 60px;
-    width: 755px;
-    margin-right: 4rem;
+    width: 865px;
     align-self: flex-end;
 }
 .navbar ul{
@@ -11,10 +10,17 @@
     justify-content: space-between;
     align-items: center;
 }
-.navbar ul li{
-
+.navbar ul li:last-child{
+    background-color: #EE4D47;
+    margin-right: 150px;
+    padding: 8px 8px 2px 8px;
+    max-width: 158px;
+    height: 40px;
+    border-radius: 6px;
 }
 .navbar ul li a{
-    font-size: var(--font-navbar);
+    font-family: var(--font-navbar);
+    font-weight: bold;
     color: #fff;
+    text-transform: uppercase;
 }
