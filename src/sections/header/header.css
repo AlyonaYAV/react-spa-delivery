@@ -13,3 +13,15 @@
     color: #fff;
     text-transform: uppercase;
 }
+.header .logo img{
+    position: relative;
+    top: 5px;
+    animation: wheel 5s linear 1s infinite normal both running;
+}
+@keyframes wheel{ 
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.header .logo span{
+    margin-left: 5px;
+}
