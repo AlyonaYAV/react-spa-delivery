@@ -1,0 +1,66 @@
+.main{
+    height: 1239px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    margin-top: -7rem;
+}
+.main::before{
+    content: '';
+    width: 90%;
+    height: 80%; /*951px;*/
+    display: block;
+    background-image: url('./../../assets/s_main_scene.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 125% 90%;
+}
+.main__text{
+    position: absolute;
+    top:15%;
+    left:20%;
+    z-index: 1;
+    font-family: var(--font-logo);
+    font-size: 100%;
+    color:#fff;
+    font-size: 6vw;
+    width:52%;
+    height:21%;
+    line-height: 1em;
+}
+.main__button{
+    background-color: #EE4D47;
+    font-size: 1vw;
+    font-family: var(--font-navbar);
+    color: #fff;
+    border: none;
+    padding: 2% 7% 2% 4%;
+    border-radius: 5px;
+    position: relative;
+}
+.main__button_arrow{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.main::after{
+    content: '';
+    width: 60%;
+    height: 33%;
+    display: block;
+    background-image: url('./../../assets/s_main_auto.png');
+    background-repeat: no-repeat;
+    background-position:top left;
+    background-size: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom:7%;
+    left:-30%;
+    animation: car 4s linear 1s 1 normal both running;
+}
+@keyframes car{ 
+    from { left: -30%; }
+    to { left: -5%; }
+}
